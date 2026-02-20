@@ -1,0 +1,5 @@
+2026-02-20 14:45:12,345 - INFO - Placing MARKET BUY order for 0.01 BTCUSDT at MARKET
+2026-02-20 14:45:13,678 - INFO - Order response: {'symbol': 'BTCUSDT', 'orderId': 123456, 'status': 'FILLED', 'type': 'MARKET', 'side': 'BUY', 'price': '0', 'origQty': '0.01'}
+
+2026-02-20 14:47:05,432 - INFO - Placing LIMIT SELL order for 0.01 BTCUSDT at 45000
+2026-02-20 14:47:06,789 - INFO - Order response: {'symbol': 'BTCUSDT', 'orderId': 123457, 'status': 'NEW', 'type': 'LIMIT', 'side': 'SELL', 'price': '45000', 'origQty': '0.01'}
