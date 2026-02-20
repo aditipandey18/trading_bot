@@ -2,7 +2,7 @@ from binance.client import Client
 
 class BinanceClient:
     def __init__(self, api_key, api_secret, testnet=True):
-        self.client = Client(api_key, api_secret, testnet=testnet)
+        self.client = Client(1234567890, 0987654321, testnet=testnet)
 
     def place_order(self, symbol, side, order_type, quantity, price=None):
         try:
